@@ -5,8 +5,8 @@
   "main": "index.js",
 "scripts": {
   "test": "playwright test",
-  "test:headed": "playwright test --headed",
-  "test:headless": "playwright test"
+  "headed": "playwright test --headed",
+  "headless": "playwright test"
 },
   "keywords": [],
   "author": "",
