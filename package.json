@@ -3,10 +3,11 @@
   "name": "playwright",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "playwright test",
-    "test:headed": "playwright test --headed"
-  },
+   "scripts": {
+  "test": "playwright test",
+  "test:headed": "playwright test --headed",
+  "test:headless": "playwright test --headless"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
