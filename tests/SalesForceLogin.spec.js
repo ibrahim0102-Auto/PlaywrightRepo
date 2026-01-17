@@ -10,9 +10,11 @@ test("Login SalesForce Website",async( {page} ) =>
     await page.waitForTimeout(8000);
     const titleofPage=await page.title();
     console.log(titleofPage);
+    console.log("We can do it");
 
     expect(titleofPage).toEqual("Verify Your Identity | Salesforce")
     
     
 }
+
 );
