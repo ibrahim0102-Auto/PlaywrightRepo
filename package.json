@@ -6,7 +6,7 @@
 "scripts": {
   "test": "playwright test",
   "test:headed": "playwright test --headed",
-  "test:headless": "playwright test --headless"
+  "test:headless": "playwright test"
 },
   "keywords": [],
   "author": "",
